@@ -6,7 +6,7 @@ import lyricsgenius as lg
 
 
 
-api_key = '8wCh_XDvpgDsH1PZhstKFSSjS7DfJtXYl6gGfu_3iQb7cQr5OM0LzmdAIDYo8U0H'
+api_key = '.'
 genius = lg.Genius(api_key, skip_non_songs=True, excluded_terms=["(Remix)", "(Live)"], remove_section_headers=True)
 
 def lyrics_from_title(song_title, artist):
