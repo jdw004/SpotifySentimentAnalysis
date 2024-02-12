@@ -1,23 +1,8 @@
 # SpotifySentimentAnalysis
 
-## Inspiration
-We knew that we wanted to incorporate the spotify API in some way, and searched for a way to connect this with data science and one of the hackathon tracts.
-
 ## What It Does
-LyricVibe utilizes sentiment analysis to determine whether a user has "happy" or "sad" music taste, by analyzing lyrics of songs in their playlists.
+At a high level, our product seeks to turn intangible, qualitative, subjective concept, like mood, or emotion, and with the might of our algorithm, convert it into a quantifiable metric from which we can song recommendations. Specifically, we have created an extensive natural language processing algorithm that seeks to derive the emotional sentiment attached to each word in the lyrics of a song, and assigns a happiness value to it, from which similar songs can be parsed and studied. Using this metric, we also attempt to study the average happiness of chart-topping songs in countries around the world, to see if there exist any tendencies towards certain countries having a preference towards sadder or happier music. Ultimately, the product is an attempt at tailoring music to a user's mood, which studies find to be beneficial for a number of reasons.
 
-## How We Built It
+## Technologies Utilized
 Taipy, Python, MongoDB Atlas, Spotify API
 
-## Challenges
-One challenge we had was learning how to properly use Taipy, as none of us had prior experience with it.
-
-## Accomplishments
-We are proud of [blank]
-
-## What We Learned
-We learned how to utilize Spoify's API, implement Taipy, and incorporate sentiment analysis.
-
-## What's Next for LyricVibe
-
-sample1_sentimentAnalyzer is used for language processing and sentiment analysis based on the generated dictionary. (input files: outputEmotions.csv)
